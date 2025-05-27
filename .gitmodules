@@ -1,0 +1,3 @@
+[submodule "src/Components"]
+	path = src/Components
+	url = https://github.com/tarun730/Healthcare-dashboard.git
