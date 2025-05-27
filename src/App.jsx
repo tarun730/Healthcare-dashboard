@@ -13,7 +13,7 @@ function App() {
     <>
     <Header/>
     <div style={{ display: 'grid',
-    gridTemplateColumns: '15% 42% 43%',background:"#f7faff"}}>
+    gridTemplateColumns: '15% 42% 43%'}}>
     <Sidebar navlinks={navigationLinks}/>
     <DashboardMainContent/>
     </div>

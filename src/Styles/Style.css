@@ -15,7 +15,7 @@
   margin: 0px;
   font-size: 24px;
   padding: 55px 23px 10px 23px;
-  border-radius: 44px 0px 0px 0px;
+  border-radius: 44px 44px 0px 0px;
 }
 
 .header span {
@@ -349,6 +349,7 @@ span.seachbutton {
   background: #f7faff;
   padding: 0px 23px 23px 46px;
   display: flex;
+  border-radius: 0px 0px 0px 44px;
   flex-direction: column;
 }
 
@@ -385,7 +386,7 @@ span.seachbutton {
 /* DashboardOverview styling start */
 .DashboardOverview {
   background: #f7faff;
-  padding: 26px;
+  padding: 0px 0px 44px 0px;
 }
 
 /* DashboardOverview styling end */
