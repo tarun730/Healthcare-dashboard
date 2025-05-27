@@ -1,7 +1,6 @@
 import React from 'react'
 
 const WeeklySchedule = (props) => {
-    console.log(props);
     return (
         <div className='WeeklySchedule'>
             <div class="activity-card">
@@ -13,13 +12,13 @@ const WeeklySchedule = (props) => {
                     {props.activityData.map(day => (
                         <div className="day" key={day.day}>
                             <div className="multibar">
-                            {day.bars.map((bar, index) => (
-                                <div
-                                    key={index}
-                                    className={`bar ${bar.color}`}
-                                    style={{ height: `${bar.height}px` }}
-                                ></div>
-                            ))}
+                                {day.bars.map((bar, index) => (
+                                    <div
+                                        key={index}
+                                        className={`bar ${bar.color}`}
+                                        style={{ height: `${bar.height}px` }}
+                                    ></div>
+                                ))}
                             </div>
                             <span>{day.day}</span>
                         </div>
