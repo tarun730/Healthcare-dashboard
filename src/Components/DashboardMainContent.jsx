@@ -3,7 +3,7 @@ import AnatomySection from './AnatomySection'
 import HealthStatusCards from './HealthStatusCards'
 import { healthStatus } from '../data/HealthStatus.js'
 import { UpcomingSchedule } from '../data/UpcomingSchedule';
-import { calendarAppointments } from '../data/appointments';
+import { calendarAppointments } from '../data/Appointments';
 import { activityData } from '../data/weeklyActivitySchedule';
 import DashboardOverview from './DashboardOverview'
 import WeeklySchedule from './WeeklySchedule'
