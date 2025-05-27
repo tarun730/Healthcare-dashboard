@@ -30,9 +30,8 @@ A modern, responsive Healthcare Dashboard designed to visualize patient data, ap
 ### Installation
 
 # Clone the repository
-git clone https://github.com/your-username/healthcare-dashboard.git
+git clone https://github.com/tarun730/Healthcare-dashboard.git
 
-cd healthcare-dashboard
 
 # Install dependencies
 npm install
