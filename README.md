@@ -16,7 +16,26 @@ A modern, responsive Healthcare Dashboard designed to visualize patient data, ap
 
 - **Frontend**: React, JSX, CSS Modules
 - **Deployment**: Netlify 
+
+
 ---
 
-## 📁 Project Structure
+## 🧑‍💻 Getting Started
+
+### Prerequisites
+
+- Node.js >= 14.x
+- npm or yarn
+
+### Installation
+
+# Clone the repository
+git clone https://github.com/your-username/healthcare-dashboard.git
+
+cd healthcare-dashboard
+
+# Install dependencies
+npm install
+# or
+yarn install
 
